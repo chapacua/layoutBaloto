@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Mitr');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+/*font-family: 'Work Sans', sans-serif;*/
+body
+{
+    background-color: #085C9B;
+    font-family: 'Open Sans', sans-serif;
+}
+.linea-cafe
+{
+    background-color: #BF7D27;
+    height: 350px;
+    position: relative;
+    margin-top: 150px;
+}
+
+.cuadrado-rojo
+{
+    position: absolute;
+    background-color: #FE0000;
+    width: 300px;
+    height: 200px;
+    top: -450px;
+}
+.tabla-contenido
+{
+    position: absolute;
+    background-color: #017BC1;
+    margin: 0 auto;
+    width: 90%;
+    height: 600px;
+    left:5%;
+    border: solid 0.7px #669e5b; 
+    top: -490px;
+    z-index: 999;
+    font-family: 'Work Sans', sans-serif;
+    border-spacing:0;
+}
+tr
+{
+    position: relative;
+}
+th, td
+{
+    border-left:solid #fff 1px;
+    border-right:solid #fff 1px;
+    border-top:solid #fff 1px;
+    border-bottom:solid #fff 1px;
+    position: relative;
+}
+table
+{
+    position: absolute;
+    left: 5%;
+    border: #fff solid 2px;
+    width: 89%;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+}
+th.no-r-margin, td.no-r-margin
+{
+    border-right-color: #017BC1 !important;
+}
+th.no-l-margin, td.no-l-margin
+{
+    border-left-color: #017BC1 !important;
+}
+td.no-blue-r-margin
+{
+    border-right-color: #FFF !important;
+}
+td.no-blue-l-margin
+{
+    border-left-color: #FFF !important;
+}
+td.no-white-t-b-margin
+{
+    border-bottom-color: #017BC1 !important;
+    border-top-color: #017BC1 !important;
+}
+td.no-white-t-margin
+{
+    border-bottom-color: #fff !important;
+    border-top-color: #017BC1 !important;
+}
+tr td:last-child
+{
+    text-align: right;
+    padding-right:15px; 
+}
+tr:last-child td:last-child
+{
+    padding-bottom: 23px;
+}
+tr:last-child td:last-child p
+{
+    padding-top: 20px;
+}
+.tabla-titulo
+{
+    font-size: 2em;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+}
+.plan-contenedor
+{
+    position: absolute;
+    top: -220px;
+}
+.titulo
+{   
+    font-size: 4em;
+    font-weight: 900;
+    text-shadow: 1px 2px #444;
+    letter-spacing: 2px;
+    margin-bottom: -10px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.titulo-uno
+{
+    font-size: 4.5em;
+    font-weight: 900;
+    text-shadow: 1px 2px #444;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+    margin-bottom: -10px;
+
+}
+.titulo-dos
+{
+    font-size: 4em;
+    font-weight: 900;
+    text-shadow: 1px 2px #444;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;    
+}
+.blanco
+{
+    color: #FEFFFF;    
+}
+.amarillo
+{
+    color: #FFFA07;
+}
+.tabla-col-titulo-upper
+{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.tabla-col-titulo
+{
+    margin-bottom: 0px;
+}
+.fucsia
+{
+    color: #D50551;
+}
+.tabla-numero-amarillo-firstbg
+{
+    background-color: #F7CE0B;
+    border-radius: 100%;
+    width: 27%;
+    position: absolute;
+    font-size: 1.5em;
+    top: 8px;
+    left: 70px;
+}
+.tabla-numero-fucsia-firstbg
+{
+    background-color: #D3044F;
+    color: #fff;
+    border-radius: 100%;
+    width: 22%;
+    position: absolute;
+    font-size: 1.5em;
+    top: 10px;
+    left: 65px;
+}
+.tabla-consecutivo-firstbg
+{
+    position: absolute;
+    left: 30px;
+    font-size: 1em;
+    top: 14px;
+}
+.tabla-consecutivo-last
+{
+    position: absolute;
+    left: 30px;
+    font-size: 1em;
+    top: 20px;
+}
+.tabla-mas-firstbg
+{
+    position: absolute;
+    left: 10px;
+    top: 14px;
+}
+.tabla-numero-blue
+{
+    background-color: #017BC1;
+    border: 1px solid #FFF;
+    border-radius: 100%;
+    width: 25%;
+    position: absolute;
+    font-size: 1.3em;
+    top: 42px;
+    left: 70px;
+}
+.tabla-numero-amarillo
+{
+    background-color: #F7CE0B;
+    border-radius: 100%;
+    width: 25%;
+    position: absolute;
+    font-size: 1.3em;
+    top: 4px;
+    left: 70px;
+}
+.tabla-numero-fucsia
+{
+    background-color: #D3044F;
+    color: #fff;
+    border-radius: 100%;
+    width: 20%;
+    position: absolute;
+    font-size: 1.3em;
+    top: 4px;
+    left: 65px;
+}
+.tabla-numero-fucsia-last
+{
+    background-color: #D3044F;
+    color: #fff;
+    border-radius: 100%;
+    width: 20%;
+    position: absolute;
+    font-size: 1.3em;
+    top: 42px;
+    left: 65px;
+}
+.tabla-consecutivo
+{
+    position: absolute;
+    left: 30px;
+    font-size: 1em;
+    top: 8px;
+}
+.tabla-mas
+{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+.tabla-mas-last
+{
+    position: absolute;
+    left: 10px;
+    top: 48px;
+}
+.tabla-o
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+#tabla-valor
+{
+    font-size: 1.2rem;
+    margin: 0px;
+}
+#tabla-valor-leyenda
+{
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.tabla-valor
+{
+    margin: 0px;
+    font-size: 1.2rem;
+}
+.margin-cero
+{
+    margin: -10px;
+}
+.text-center
+{
+    text-align: center;
+}
